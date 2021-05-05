@@ -9,7 +9,7 @@
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover;/*Deixa a imgam em todo tanto na altura como na largura*/
   position: relative;
 }
 
@@ -40,4 +40,93 @@ nav img{
   color: #FFF;
   text-decoration: none;
   font-size: 13px;
+}
+
+.nav-links ul li::after{/*putting a bar bellow of links */
+  content: '';/*here is the contents default of AFTER*/
+  width: 0;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.2s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+.text-box{
+  width: 90%;
+  color: #FFF;
+  transform: translate(-50% -50%);
+  text-align: center;
+
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.text-box h1{
+  font-size: 40px;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 15px;
+  color: #FFF;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 12px 34px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+.fas{
+  display: none;
+}
+
+@media(max-width: 700px){
+  .fas{
+    display: block;
+    color: #FFF;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .text-box h1{
+    font-size: 20px;
+  }
+
+  .nav-links ul li{
+    display: block;
+  }
+
+  .nav-links{/*Creating the menu responsive*/
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  .nav-links ul{
+    padding: 30px;
+  }
 }
