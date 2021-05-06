@@ -1,9 +1,10 @@
-## Projeto criado no canal do youtube Easy Tutorials.
+## Projeto criado no canal do youtube Easy Tutorials, retratando um site.
+<hr>
+- Tecnologias usadas foram:
 
-- Projeto que retrada um web site.
-
-- Dentro do <b>README</b> da pasta do projeto está tudo que foi ou está sendo usando.
-   * https://github.com/thiagoadssilva/rocketSeatNlw/blob/main/frontend/README.md
+   * HTML
+   * CSS
+   * JAVASCRIPT
 
 <hr/>
 
@@ -28,4 +29,14 @@
 ## <b>Pagina dos Cursos</b>
 
 ![Tela Principal](imageReadme/05.png)
+<hr>
+
+## <b>Pagina das Cidades</b>
+
+![Tela Principal](imageReadme/ambiente.png)
+<hr>
+
+## <b>Pagina das instalações</b>
+
+![Tela Principal](imageReadme/instalacoes.png)
 <hr>
