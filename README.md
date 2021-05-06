@@ -7,17 +7,25 @@
 
 <hr/>
 
-## <b>Pagina da Listagem</b>
+# Obs - Todo conteúdo do site foi colocado para demostração.
 
-![Tela Principal](image/01.png)
+## <b>Pagina Inicial</b>
+
+![Tela Principal](imageReadme/04.png)
 <hr>
 
-## <b>Pagina da Descrição</b>
+## <b>Pagina Inicial Responsiva</b>
 
-![Tela Principal](image/02.png)
+![Tela Principal](imageReadme/01Responsive.png)
+
 <hr>
 
-## <b>Aside do Player</b>
+## <b>Pagina Incial Responsiva</b>
 
-![Tela Principal](image/03.png)
+![Tela Principal](imageReadme/02Responsive.png)
+<hr>
+
+## <b>Pagina dos Cursos</b>
+
+![Tela Principal](imageReadme/05.png)
 <hr>
