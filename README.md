@@ -9,6 +9,7 @@
 <hr/>
 
 # Obs - Todo conteúdo do site foi colocado para demostração.
+## Projeto publicado: http://sitetreinamentoyoutube.tfcoder.com/
 
 ## <b>Pagina Inicial</b>
 
